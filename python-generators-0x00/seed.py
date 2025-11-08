@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 # Import a mysql driver to connect mysql server with python
 
 import mysql.connector 
