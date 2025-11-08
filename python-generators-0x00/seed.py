@@ -184,21 +184,3 @@ def get_user_data(connection):
 
     print(rows)
 
-
-
-
-connection = connect_db()
-
-create_database(connection)
-
-get_databases(connection)
-
-connection = connect_to_prodev()
-
-create_table(connection)
-
-insert_data(connection, 'user_data.csv')
-
-get_user_data(connection)
-
-insert_data(connection, 'user_data.csv')
